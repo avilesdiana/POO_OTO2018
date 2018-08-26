@@ -7,6 +7,8 @@ Programación Orientada a Objetos
 
    @Param: Dos números enteros
   @Salidas: La suma de ambos números.
+
+  PROGRAMA 1
     ---------------------------------------------------------------------------------------------------*/
 
 import java.util.Scanner;
