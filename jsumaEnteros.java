@@ -18,6 +18,7 @@ public class jsumaEnteros{
 
       int numero1, numero2, suma;
 
+     System.out.println("__________________________________");
      System.out.println("Programa que suma dos numeros enteros");
      System.out.println("By: Diana Aviles");
 
