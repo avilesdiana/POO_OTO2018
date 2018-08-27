@@ -27,6 +27,7 @@ Programación Orientada a Objetos
         System.out.println("Programa que calcula si las recta son paraleas o\n perpendiculares");
         System.out.println("By: Diana Aviles");
         System.out.println("_________________________________________");
+        System.out.flush();
         System.out.print( "Escriba x1:");
         x1=entrada.nextFloat();
         System.out.print( "Escriba y1:");
