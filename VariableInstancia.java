@@ -28,7 +28,7 @@ public class VariableInstancia{
   }
 
   public void muestraNombre(){
-      
+  
     System.out.println("El nombre de la personas es:"+getNombre() );
   }
 }

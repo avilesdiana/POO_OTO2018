@@ -15,6 +15,7 @@ public class ImplementaVarInst{
   public static void main(String[] args) {
 
       VariableInstancia miVarIns = new VariableInstancia("MFG");
+        System.out.flush();
       miVarIns.muestraNombre();
    }
 }
