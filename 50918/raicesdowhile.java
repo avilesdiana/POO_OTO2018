@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-public class raices{
+public class raicesdowhile{
 
 public static void main(String[] args) {
 
-     double valor,i;
+     double valor,i=0;
      double x1;
      Scanner entrada= new Scanner (System.in);
 
@@ -16,7 +16,7 @@ public static void main(String[] args) {
      System.out.println("Escribe el valor de la raiz mas cercana: ");
      valor=entrada.nextInt();
 
-    for(i=0;i<=50;i++){
+     do{
 
 
      x1=Math.pow((5*(valor)-5),0.5);
@@ -30,6 +30,8 @@ public static void main(String[] args) {
        break;
      }
             valor=x1;
-    }
+            i++;
+
+    }while(i<=50);
  }
 }
