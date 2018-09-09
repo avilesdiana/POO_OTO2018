@@ -1,5 +1,5 @@
 /* ------------------------------------------------------------------------------------------------------
-Programación Orientada a Objetos
+   Programación Orientada a Objetos
 
 
    Fecha: 29/08/2018
@@ -7,26 +7,26 @@ Programación Orientada a Objetos
 
    Instancias
 
-  PROGRAMA 7
-    ---------------------------------------------------------------------------------------------------*/
+   PROGRAMA 7
+   ---------------------------------------------------------------------------------------------------*/
 
 public class OperacionesBanco{
 
-  private int a;
-  //variable de instancia, puede usarse o modificarse // en cualquier momento
+    private int a;
+    //variable de instancia, puede usarse o modificarse // en cualquier momento
 
-  public OperacionesBanco(int saldoinicial) {
-    a=saldoinicial;
-  }
+    public OperacionesBanco(int saldoinicial) {
+	a=saldoinicial;
+    }
 
 
 
-  public int RealizaCompra(int compraRealizada){
+    public int RealizaCompra(int compraRealizada){
 
-    int  resultado= a - compraRealizada ;
+	int  resultado= a - compraRealizada ;
 
-    return resultado;
+	return resultado;
 
-  }
+    }
 
 }

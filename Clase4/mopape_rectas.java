@@ -1,20 +1,20 @@
 /* ------------------------------------------------------------------------------------------------------
-Programación Orientada a Objetos
+   Programación Orientada a Objetos
 
-      Uso de métodos
-      Fecha:
+   Uso de métodos
+   Fecha:
    @Author: Diana Aviles
 
    @Param: 4 coordenadas , calcula si son rectas parelelas o perpendiculares
-  @Salidas: Suma,resta,multiplicacion y DIvisión
+   @Salidas: Suma,resta,multiplicacion y DIvisión
 
-  PROGRAMA 4
-    ---------------------------------------------------------------------------------------------------*/
-    import java.util.Scanner;
+   PROGRAMA 4
+   ---------------------------------------------------------------------------------------------------*/
+import java.util.Scanner;
 
-    public class mopape_rectas{
+public class mopape_rectas{
 
-      public static void main(String[] args) {
+    public static void main(String[] args) {
 
         Scanner entrada = new Scanner(System.in);
 
@@ -56,12 +56,12 @@ Programación Orientada a Objetos
         m2= ejecutaRecta.RealizaPendiente(x3,y3,x4,y4);
 
         if(m1==m2){
-          System.out.print("Paraelas ");
+	    System.out.print("Paraelas ");
 
         }
         else {
-          System.out.print("Perpendiculares");
+	    System.out.print("Perpendiculares");
         }
 
-      }
     }
+}

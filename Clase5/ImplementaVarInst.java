@@ -1,5 +1,5 @@
 /* ------------------------------------------------------------------------------------------------------
-Programación Orientada a Objetos
+   Programación Orientada a Objetos
 
 
    Fecha: 27/08/2018
@@ -7,15 +7,15 @@ Programación Orientada a Objetos
 
    Instancias
 
-  PROGRAMA 5
-    ---------------------------------------------------------------------------------------------------*/
+   PROGRAMA 5
+   ---------------------------------------------------------------------------------------------------*/
 
 public class ImplementaVarInst{
 
-  public static void main(String[] args) {
+    public static void main(String[] args) {
 
-      VariableInstancia miVarIns = new VariableInstancia("MFG");
+	VariableInstancia miVarIns = new VariableInstancia("MFG");
         System.out.flush();
-      miVarIns.muestraNombre();
-   }
+	miVarIns.muestraNombre();
+    }
 }

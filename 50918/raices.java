@@ -2,34 +2,35 @@ import java.util.Scanner;
 
 public class raices{
 
-public static void main(String[] args) {
+    public static void main(String[] args) {
 
-     double valor,i;
-     double x1;
-     Scanner entrada= new Scanner (System.in);
+	double valor,i;
+	double x1;
+	Scanner entrada= new Scanner (System.in);
 
-    System.out.println("\033[H\033[2J");
-    System.out.flush(); // Limpiar pantalla
+	System.out.println("\033[H\033[2J");
+	System.out.flush(); // Limpiar pantalla
 
-    System.out.println("______________________________________________");
+	System.out.println("______________________________________________");
+	System.out.println("By: Diana Aviles\n\n");
 
-     System.out.println("Escribe el valor de la raiz mas cercana: ");
-     valor=entrada.nextInt();
+	System.out.println("Escribe el valor de la raiz mas cercana: ");
+	valor=entrada.nextInt();
 
-    for(i=0;i<=50;i++){
+	for(i=0;i<=50;i++){
 
 
-     x1=Math.pow((5*(valor)-5),0.5);
-     System.out.println("______________________________________________");
-     System.out.println("Valor de la Raiz:: "+x1);
+	    x1=Math.pow((5*(valor)-5),0.5);
+	    System.out.println("______________________________________________");
+	    System.out.println("Valor de la Raiz:: "+x1);
 
-     if((x1-valor)<0.00001){
+	    if((x1-valor)<0.00001){
 
-       System.out.println("______________________________________________");
-       System.out.println("El valor de la raiz es:: "+x1+" en la iteracion: "+i);
-       break;
-     }
+		System.out.println("______________________________________________");
+		System.out.println("El valor de la raiz es:: "+x1+" en la iteracion: "+i);
+		break;
+	    }
             valor=x1;
+	}
     }
- }
 }

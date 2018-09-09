@@ -2,24 +2,20 @@ import java.util.Scanner;
 
 public class calificaciones{
 
-public static void main(String[] args) {
+    public static void main(String[] args) {
 
-   Scanner entrada =new Scanner(System.in);
+	Scanner entrada =new Scanner(System.in);
 
-    int totalCal,resultado;
+	int totalCal,resultado;
 
-    Promedios ejecutaProm =new Promedios();
+	Promedios ejecutaProm =new Promedios();
 
-    System.out.println("Ingrese el total de calificaciones:");
-    totalCal=entrada.nextInt();
-    ejecutaProm.determinarPromedioClase(totalCal);
+	System.out.println("Ingrese el total de calificaciones:");
+	totalCal=entrada.nextInt();
+	ejecutaProm.determinarPromedioClase(totalCal);
 
-    ejecutaProm.imprimeSumaTotal();
-    ejecutaProm.imprimePromedio();
+	ejecutaProm.imprimeSumaTotal();
+	ejecutaProm.imprimePromedio();
 
-
-
-
-
-  }
+    }
 }

@@ -1,5 +1,5 @@
 /* ------------------------------------------------------------------------------------------------------
-Programación Orientada a Objetos
+   Programación Orientada a Objetos
 
 
    Fecha: 29/08/2018
@@ -7,19 +7,19 @@ Programación Orientada a Objetos
 
    Instancias
 
-  PROGRAMA 7
-    ---------------------------------------------------------------------------------------------------*/
-  import java.util.Scanner;
+   PROGRAMA 7
+   ---------------------------------------------------------------------------------------------------*/
+import java.util.Scanner;
 
-    public class Banco{
+public class Banco{
 
-      public static void main(String[] args){
+    public static void main(String[] args){
 
 
-       int compraRealizada;
-       int resultado;
+	int compraRealizada;
+	int resultado;
 
-      Scanner entrada = new Scanner(System.in);
+	Scanner entrada = new Scanner(System.in);
 
 
         System.out.println("\033[H\033[2J");
@@ -37,11 +37,11 @@ Programación Orientada a Objetos
 
         resultado=ejecutaOperac.RealizaCompra(compraRealizada);
 
-         System.out.println("Tu saldo final es: "+resultado);
+	System.out.println("Tu saldo final es: "+resultado);
 
          
 
-      }
-
-
     }
+
+
+}
